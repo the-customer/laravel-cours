@@ -16,7 +16,9 @@
         ["columnName"=>value,...],
     ])
 5. Mettre a jour un enregistrement
-    - DB::table("tableName")->where("columnName","operator","value")->update([
+    - DB::table("tableName")
+    ->where("columnName","operator","value")
+    ->update([
         "column"    => value
     ])
 6. Supprimer un enregistrement

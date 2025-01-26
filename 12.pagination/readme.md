@@ -4,4 +4,4 @@
     - {{ $data->links() }}
 - Dans AppServiceProvider: dans la methode boot:
     Paginator::userBoostrap()
-        => Rendre le rendue plus cool
+        => Rendre le rendue plus cool 😎
